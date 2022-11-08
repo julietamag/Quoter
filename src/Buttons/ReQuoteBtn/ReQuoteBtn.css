@@ -1,0 +1,12 @@
+.newQuoteBtn{
+    padding: 1rem;
+    border: 1px solid beige;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+}
+
+.newQuoteBtn:hover{
+    opacity: 0.8;
+}
