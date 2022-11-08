@@ -4,3 +4,23 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media only screen and (max-width: 600px){
+    #buttons-box{
+        width: 20rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    #buttons-box{
+        width: 15rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+}

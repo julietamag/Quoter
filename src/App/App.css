@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; 
     background-color: darkseagreen;
 }
 
@@ -17,4 +17,16 @@
     width: 40rem;
     text-align: center;
     border-radius: .3rem;
+}
+
+@media only screen and (max-width: 600px){
+    #quote-box{
+        width: 25rem;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    #quote-box{
+        width: 20rem;
+    }
 }
