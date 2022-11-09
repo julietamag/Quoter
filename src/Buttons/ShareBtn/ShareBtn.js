@@ -2,8 +2,9 @@ import './ShareBtn.css';
 
 export function ShareBtn(props){
     return(
-        <div id='tweet-quote' >
+        <div >
             <a 
+            id='tweet-quote' 
             className = 'tweet'
             href = {`https://twitter.com/intent/tweet?text=${props.quote}#quotes`}
             target='_blank'
